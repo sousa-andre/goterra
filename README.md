@@ -24,7 +24,7 @@ func main() {
 	id := goterra.DeckFromCode("CEBAIAIFB4WDANQIAEAQGDAUDAQSIJZUAIAQCAIEAEAQKBIA")
 
 	for _, cg := range id.CardGroups {
-		fmt.Printf("Card Code: %s. Card Count %id\n", cg.Card.GetCardCode(), cg.Count)
+		fmt.Printf("Card Code: %s. Card Count %d\n", cg.Card.GetCardCode(), cg.Count)
 	}
 
 	// Create deck

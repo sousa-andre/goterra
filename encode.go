@@ -3,7 +3,6 @@ package goterra
 import (
 	"bytes"
 	"encoding/base32"
-	"fmt"
 )
 
 func encodeBase32(data []byte) string {
@@ -55,7 +54,5 @@ func (d *Deck) Encode() string {
 	encodeDeckCardsFromBuffer(buf, d)
 
 	s := buf.String()
-	fmt.Println([]byte(s))
-
 	return encodeBase32([]byte(s))
 }
