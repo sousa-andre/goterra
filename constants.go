@@ -11,6 +11,7 @@ var Factions = map[int]string{
 	9:  "MT",
 	7:  "SH",
 	10: "BC",
+	12: "RU",
 }
 
 func idFromFactionString(lv string) int {
@@ -33,4 +34,5 @@ var FactionsVersion = map[uint8][2]uint8{
 	9:  {1, 2},
 	7:  {1, 3},
 	10: {1, 4},
+	12: {1, 5},
 }
