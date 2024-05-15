@@ -1,7 +1,7 @@
 package test
 
 import (
-	"goterra"
+	"github.com/sousa-andre/goterra"
 	"testing"
 )
 

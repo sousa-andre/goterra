@@ -2,7 +2,7 @@ package test
 
 import (
 	"bufio"
-	"goterra"
+	"github.com/sousa-andre/goterra"
 	"os"
 	"path/filepath"
 	"runtime"

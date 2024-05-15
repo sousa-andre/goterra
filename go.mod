@@ -1,1 +1,1 @@
-module "goterra"
+module github.com/sousa-andre/goterra
